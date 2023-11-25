@@ -19,6 +19,7 @@ a{color:#F26101;}
 a:hover,a:active,a:focus{color:#F26101;outline:none;text-decoration:none}
 p{margin-bottom:20px}
 h1,h2,h3,h4,h5,h6,figure{font-weight:400;margin:0 0 20px}
+h4 {line-height: 1.45;}
 ::-webkit-selection{color:#fff;background:#F26101}
 ::-moz-selection{color:#fff;background:#F26101}
 ::selection{color:#fff;background:#F26101}
@@ -75,18 +76,7 @@ h1,h2,h3,h4,h5,h6,figure{font-weight:400;margin:0 0 20px}
 #gtco-header h1{font-size:34px;line-height:1.2;margin-bottom:10px}
 }
 #gtco-header h2{font-weight:300;font-size:22px;line-height:1.5;margin-bottom:30px}
-#gtco-header .form-wrap{border-top:10px solid #09C6AB;position:relative;width:100%;-webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,0.15);-moz-box-shadow:0 2px 5px 0 rgba(0,0,0,0.15);box-shadow:0 2px 5px 0 rgba(0,0,0,0.15)}
-#gtco-header .form-wrap .tab-menu{padding:0!important;margin:0 0 -10px!important;width:100%;float:left;z-index:12;position:relative}
-#gtco-header .form-wrap .tab-menu li{padding:0;margin:0;list-style:none;display:inline;float:left;width:50%;text-align:center}
-#gtco-header .form-wrap .tab-menu li a{padding:10px 20px 20px;float:left;width:100%;display:block;background:rgba(255,255,255,0.5);color:#1a1a1a}
-#gtco-header .form-wrap .tab-menu li a:hover{color:#1a1a1a}
-#gtco-header .form-wrap .tab-menu li.active a{display:block;padding:10px 20px 20px;background:#fff;color:#09C6AB}
-#gtco-header .form-wrap .tab-menu li.gtco-first a{border-top-left-radius:7px}
-#gtco-header .form-wrap .tab-menu li.gtco-second a{border-top-right-radius:7px}
-#gtco-header .form-wrap .tab-content{z-index:10;position:relative;clear:both;background:#fff;padding:30px}
-#gtco-header .form-wrap .tab-content .tab-content-inner{display:none}
-#gtco-header .form-wrap .tab-content .tab-content-inner.active{display:block}
-#gtco-header,#gtco-counter,.gtco-bg{background-size:cover;background-position:top center;background-repeat:no-repeat;position:relative}
+#gtco-header,.gtco-bg{background-size:cover;background-position:top center;background-repeat:no-repeat;position:relative}
 .gtco-bg{background-position:center center;width:100%;float:left;position:relative}
 .gtco-social-icons{margin:0;padding:0}
 .gtco-social-icons li{margin:0;padding:0;list-style:none;display:-moz-inline-stack;display:inline-block;zoom:1;*display:inline}
@@ -94,14 +84,7 @@ h1,h2,h3,h4,h5,h6,figure{font-weight:400;margin:0 0 20px}
 .gtco-social-icons li a:hover{ background-color: #000;text-decoration: none !important; }
 .gtco-social-icons li a i{font-size:20px;color:#fff}
 form label{font-weight:400!important}
-#gtco-header .display-tc,#gtco-counter .display-tc,.gtco-cover .display-tc{display:table-cell!important;vertical-align:middle}
 #gtco-header .display-tc .intro-text-small,#gtco-counter .display-tc .intro-text-small,.gtco-cover .display-tc .intro-text-small{font-size:14px;;color:rgba(255,255,255,0.5);display:block;margin-bottom:10px}
-#gtco-header .display-tc h1,#gtco-header .display-tc h2,#gtco-counter .display-tc h1,#gtco-counter .display-tc h2,.gtco-cover .display-tc h1,.gtco-cover .display-tc h2{margin:0;padding:0;color:#fff}
-#gtco-header .display-tc h1,#gtco-counter .display-tc h1,.gtco-cover .display-tc h1{margin-bottom:0;font-size:59px;line-height:1.5;font-weight:300}
-@media screen and (max-width: 768px) {
-#gtco-header .display-tc h1,#gtco-counter .display-tc h1,.gtco-cover .display-tc h1{font-size:34px;line-height:1.2;margin-bottom:10px}
-}
-#gtco-header .display-tc h2,#gtco-counter .display-tc h2,.gtco-cover .display-tc h2{font-weight:300;font-size:22px;line-height:1.5;margin-bottom:30px}
 #gtco-features,#gtco-features-2,#gtco-products,#gtco-services,#gtco-subscribe,#gtco-footer,.gtco-section{padding:7em 0;clear:both;position:relative}
 @media screen and (max-width: 768px) {
 #gtco-features,#gtco-features-2,#gtco-services,#gtco-subscribe,#gtco-footer,.gtco-section{padding:6em 0}
