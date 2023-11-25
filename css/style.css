@@ -96,7 +96,7 @@ form label{font-weight:400!important}
 @media screen and (max-width: 768px) {
 .gtco-heading h2{font-size:18px}
 }
-.gtco-heading p{font-size:16px;line-height:1.5;color:#707070}
+.gtco-heading p{font-size:16px;color:#707070}
 #gtco-footer { background-color: #edebdf; box-shadow: inset 0 3px 5px -3px rgba(0, 0, 0, .5);}
 #gtco-footer .gtco-footer-links{padding:0;margin:0 0 20px;float:left;width:100%}
 #gtco-footer .gtco-footer-links li{padding:0;margin:0 0 15px;list-style:none;line-height:1}
