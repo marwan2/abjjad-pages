@@ -113,7 +113,7 @@ form label{font-weight:400!important}
 @media screen and (max-width: 768px) {
 .gtco-heading h2{font-size:18px}
 }
-.gtco-heading p{font-size:17px;line-height:1.5;color:#707070}
+.gtco-heading p{font-size:16px;line-height:1.5;color:#707070}
 #gtco-footer { background-color: #edebdf; box-shadow: inset 0 3px 5px -3px rgba(0, 0, 0, .5);}
 #gtco-footer .gtco-footer-links{padding:0;margin:0 0 20px;float:left;width:100%}
 #gtco-footer .gtco-footer-links li{padding:0;margin:0 0 15px;list-style:none;line-height:1}
@@ -198,7 +198,7 @@ form label{font-weight:400!important}
 .btn-warning { border-color: #F26101; }
 .cta .btn { font-weight: bold;}
 #gtco-footer { padding: 2em 0; }
-#gtco-footer .quicklinks a { color: #333; display: inline-block; padding-left: 17px; font-size: 14px; }
+#gtco-footer .quicklinks a { color: #454545; display: inline-block; padding-left: 28px; font-size: 14px; }
 #gtco-footer a:hover { text-decoration: underline; }
 .gateway_vendors img { height: 37px; border-radius: 5px; display: inline-block }
 .gateway_vendors img.mastercard { background-color: #36495D; padding: 10px; }
@@ -222,6 +222,7 @@ form label{font-weight:400!important}
 .discover_more { background-color: #EEEFF1; padding:20px 0;box-shadow: inset 0 2px 3px -2px rgba(0, 0, 0, .5);}
 .for_devices { font-size: 13px; }
 .copyright .rights_note { font-size: 13px;}
+footer, footer h3 { font-family: 'HelveticaNeueLTW20-Bold';}
 @media screen and (max-width: 768px) {
 body { font-size: 14px;}
 .macbook-wrap img{max-width:100%}
@@ -235,7 +236,7 @@ body { font-size: 14px;}
 .gtco-widget { display: flex; flex-wrap: wrap;}
 .gtco-widget h3 { flex: 1 1 100%}
 .gtco-widget a { flex: 1 1 50%; padding:5px;}
-footer, footer h3 { text-align: center; font-family: 'HelveticaNeueLTW20-Bold';}
+footer, footer h3 { text-align: center;}
 #gtco-footer .quicklinks a { color: #6d7d7f; font-size: 13px; padding-left: 10px;}
 .copyright .rights_note { display: block;margin-bottom: 2px;font-size: 12px;;}
 .copyright .rights_note .seprator { display: none;}
