@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700&display=swap');
+@font-face {
+  font-family:"HelveticaNeueLTW20-Ligh";
+  src:url('../fonts/helveticaNeo/') format("embedded-opentype"), url('../fonts/helveticaNeo/light.woff') format("woff"), url('../fonts/helveticaNeo/light.ttf') format("truetype"), url('../fonts/helveticaNeo/light.svg') format("svg")
+}
+@font-face {
+  font-family:"HelveticaNeueLTW20-Roma";
+  src:url('../fonts/helveticaNeo/roman.eot?#iefix') format("embedded-opentype"), url('../fonts/helveticaNeo/roman.woff') format("woff"), url('../fonts/helveticaNeo/roman.ttf') format("truetype"), url('../fonts/helveticaNeo/roman.svg') format("svg")
+}
+@font-face {
+  font-family:"HelveticaNeueLTW20-Bold";
+  src:url('../fonts/helveticaNeo/bold.eot?#iefix') format("embedded-opentype"), url('../fonts/helveticaNeo/bold.woff') format("woff"), url('../fonts/helveticaNeo/bold.ttf') format("truetype"), url('../fonts/helveticaNeo/bold.svg') format("svg")
+}
 body{font-family:'Noto Kufi Arabic',sans-serif;font-weight:400;font-size:16px;line-height:1.7;color:#454545;background:#fff}
 #page{position:relative;overflow-x:hidden;width:100%;height:100%;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
 .offcanvas #page{overflow:hidden;position:absolute}
@@ -16,7 +28,7 @@ h1,h2,h3,h4,h5,h6,figure{font-weight:400;margin:0 0 20px}
 @media screen and (max-width: 768px) {
 .gtco-nav{padding:10px 0}
 }
-.gtco-nav #gtco-logo{font-size:20px;margin:0;padding:0;text-transform:uppercase;font-weight:700}
+.gtco-nav #gtco-logo{font-size:20px;margin:0;padding:0;;font-weight:700}
 .gtco-nav #gtco-logo em{color:#09C6AB}
 .gtco-nav a{padding:5px 10px;}
 @media screen and (max-width: 768px) {
@@ -56,7 +68,7 @@ h1,h2,h3,h4,h5,h6,figure{font-weight:400;margin:0 0 20px}
 @media screen and (max-width: 768px) {
 #gtco-header .mt-text{margin-top:0}
 }
-#gtco-header .intro-text-small{font-size:14px;text-transform:uppercase;color:rgba(255,255,255,0.5);display:block;margin-bottom:10px}
+#gtco-header .intro-text-small{font-size:14px;;color:rgba(255,255,255,0.5);display:block;margin-bottom:10px}
 #gtco-header h1,#gtco-header h2{margin:0;padding:0;color:#fff}
 #gtco-header h1{margin-bottom:0;font-size:59px;line-height:1.5;font-weight:300}
 @media screen and (max-width: 768px) {
@@ -83,7 +95,7 @@ h1,h2,h3,h4,h5,h6,figure{font-weight:400;margin:0 0 20px}
 .gtco-social-icons li a i{font-size:20px;color:#fff}
 form label{font-weight:400!important}
 #gtco-header .display-tc,#gtco-counter .display-tc,.gtco-cover .display-tc{display:table-cell!important;vertical-align:middle}
-#gtco-header .display-tc .intro-text-small,#gtco-counter .display-tc .intro-text-small,.gtco-cover .display-tc .intro-text-small{font-size:14px;text-transform:uppercase;color:rgba(255,255,255,0.5);display:block;margin-bottom:10px}
+#gtco-header .display-tc .intro-text-small,#gtco-counter .display-tc .intro-text-small,.gtco-cover .display-tc .intro-text-small{font-size:14px;;color:rgba(255,255,255,0.5);display:block;margin-bottom:10px}
 #gtco-header .display-tc h1,#gtco-header .display-tc h2,#gtco-counter .display-tc h1,#gtco-counter .display-tc h2,.gtco-cover .display-tc h1,.gtco-cover .display-tc h2{margin:0;padding:0;color:#fff}
 #gtco-header .display-tc h1,#gtco-counter .display-tc h1,.gtco-cover .display-tc h1{margin-bottom:0;font-size:59px;line-height:1.5;font-weight:300}
 @media screen and (max-width: 768px) {
@@ -108,7 +120,7 @@ form label{font-weight:400!important}
 #gtco-footer .gtco-footer-links li a{text-decoration:none}
 #gtco-footer .gtco-footer-links li a:hover{text-decoration:underline}
 #gtco-footer .gtco-widget{margin-bottom:12px}
-#gtco-footer .gtco-widget h3{margin-bottom:15px;font-weight:700;font-size:15px;text-transform:uppercase}
+#gtco-footer .gtco-widget h3{margin-bottom:15px;font-size:15px;}
 #gtco-footer .gtco-widget p{font-size: 13px; color:#454545}
 #gtco-footer .footer-logo span{color:#09C6AB}
 #gtco-footer .copyright{padding-top:0em;margin-top:0em;border-top:1px solid #f2f2f2}
@@ -116,9 +128,10 @@ form label{font-weight:400!important}
 #gtco-footer .copyright .pull-left,#gtco-footer .copyright .pull-right{float:none!important;text-align:center}
 }
 #gtco-footer .copyright .block{display:block}
-#gtco-offcanvas{position:absolute;z-index:1901;width:270px;background:#344A5D;top:0;right:0;top:0;bottom:0;padding:45px 20px 40px;overflow-y:auto;display:none;-moz-transform:translateX(270px);-webkit-transform:translateX(270px);-ms-transform:translateX(270px);-o-transform:translateX(270px);transform:translateX(270px);-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
+#gtco-offcanvas{position:absolute;z-index:1901;width:270px;background:#344A5D;top:0;right:0;top:0;bottom:0;padding:58px 20px 40px;overflow-y:auto;display:none;-moz-transform:translateX(270px);-webkit-transform:translateX(270px);-ms-transform:translateX(270px);-o-transform:translateX(270px);transform:translateX(270px);-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
 @media screen and (max-width: 768px) {
 #gtco-offcanvas{display:block}
+#gtco-offcanvas li.li_login{display:none}
 }
 .offcanvas #gtco-offcanvas{-moz-transform:translateX(0px);-webkit-transform:translateX(0px);-ms-transform:translateX(0px);-o-transform:translateX(0px);transform:translateX(0px)}
 #gtco-offcanvas #gtco-logo{position: absolute;top: 0;right: 55px;}
@@ -140,7 +153,7 @@ form label{font-weight:400!important}
 .gtco-nav-toggle{width:25px;height:25px;cursor:pointer;text-decoration:none}
 .gtco-nav-toggle.active i::before,.gtco-nav-toggle.active i::after{background:#444}
 .gtco-nav-toggle:hover,.gtco-nav-toggle:focus,.gtco-nav-toggle:active{outline:none;border-bottom:none!important}
-.gtco-nav-toggle i{position:relative;display:inline-block;width:25px;height:2px;color:#252525;font:bold 14px/.4 Helvetica;text-transform:uppercase;text-indent:-55px;background:#252525;transition:all .2s ease-out}
+.gtco-nav-toggle i{position:relative;display:inline-block;width:25px;height:2px;color:#252525;font:bold 14px/.4 Helvetica;;text-indent:-55px;background:#252525;transition:all .2s ease-out}
 .gtco-nav-toggle i::before,.gtco-nav-toggle i::after{content:'';width:25px;height:2px;background:#252525;position:absolute;left:0;transition:all .2s ease-out}
 .gtco-nav-toggle.gtco-nav-white > i{color:#fff;background:#fff}
 .gtco-nav-toggle.gtco-nav-white > i::before,.gtco-nav-toggle.gtco-nav-white > i::after{background:#fff}
@@ -185,7 +198,7 @@ form label{font-weight:400!important}
 .btn-warning { border-color: #F26101; }
 .cta .btn { font-weight: bold;}
 #gtco-footer { padding: 2em 0; }
-#gtco-footer .quicklinks a { color: #333; display: inline-block; padding-left: 17px; font-size: 14px; font-weight: bold; }
+#gtco-footer .quicklinks a { color: #333; display: inline-block; padding-left: 17px; font-size: 14px; }
 #gtco-footer a:hover { text-decoration: underline; }
 .gateway_vendors img { height: 37px; border-radius: 5px; display: inline-block }
 .gateway_vendors img.mastercard { background-color: #36495D; padding: 10px; }
@@ -214,13 +227,16 @@ body { font-size: 14px;}
 .macbook-wrap img{max-width:100%}
 .btn { padding:8px 23px;padding: 6px 19px;font-size: 14px;}
 .gateway_vendors img { height: 34px; border-radius: 4px;}
+.gtco-nav .mob_nav li a { padding-right:8px;padding-left: 6px; letter-spacing: -1px;}
+.logo_wrapper { padding-left: 1px;}
+.card-body { padding: 1.0rem;}
 }
 @media screen and (max-width: 540px) {
 .gtco-widget { display: flex; flex-wrap: wrap;}
 .gtco-widget h3 { flex: 1 1 100%}
 .gtco-widget a { flex: 1 1 50%; padding:5px;}
-footer { text-align: center;}
-#gtco-footer .quicklinks a { color: #6d7d7f; font-size: 13px; padding-left: 7px;}
+footer, footer h3 { text-align: center; font-family: 'HelveticaNeueLTW20-Bold';}
+#gtco-footer .quicklinks a { color: #6d7d7f; font-size: 13px; padding-left: 10px;}
 .copyright .rights_note { display: block;margin-bottom: 2px;font-size: 12px;;}
 .copyright .rights_note .seprator { display: none;}
 #gtco-footer .gtco-container { display: flex; flex-direction: column;}
@@ -230,4 +246,8 @@ footer { text-align: center;}
 #gtco-footer .gtco-widget p{font-size: 12px; color:#454545}
 .warning-disc img { width:44px;}
 .warning-disc .card-body { padding: 10px; }
+}
+@media screen and (max-width: 370px) {
+  .mob_nav { padding-left: 5px; padding-right: 5px;}
+  .gtco-nav .mob_nav li a { padding-right:4px;padding-left: 4px;}
 }
