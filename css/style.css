@@ -92,7 +92,7 @@ form label{font-weight:400!important}
 #gtco-services.border-bottom,#gtco-subscribe.border-bottom,#gtco-footer.border-bottom,.gtco-section.border-bottom{border-bottom:1px solid #e6e6e6}
 .gtco-heading{margin-bottom:2.0em}
 .gtco-heading.gtco-heading-sm{margin-bottom:2em}
-.gtco-heading h2{font-size:29px;margin-bottom:10px;line-height:1.5;font-weight:300;color:#454545;position:relative}
+.gtco-heading h2{font-size:26px;margin-bottom:10px;line-height:1.5;font-weight:300;color:#454545;position:relative}
 .gtco-heading p{font-size:16px;color:#707070}
 #gtco-footer { background-color: #edebdf; box-shadow: inset 0 3px 5px -3px rgba(0, 0, 0, .5);}
 #gtco-footer .gtco-footer-links{padding:0;margin:0 0 20px;float:left;width:100%}
@@ -168,7 +168,7 @@ form label{font-weight:400!important}
 .gtco-widget a:hover img { box-shadow: 0px 2px 8px #00000029; }
 .gtco-section { padding-bottom: 4em;}
 .card.bg-light { background-color: #EBEDEF !important;box-shadow: 0px 2px 4px #00000029;border: 1px solid #E8E8E8;border-radius: 10px;}
-.bhead { font-weight: bold; font-size:18px; color:#454545; }
+.bhead { font-weight: bold; font-size:17px; color:#454545; }
 .font-20 { font-size:20px}
 .font-18 { font-size:18px}
 .font-13 { font-size:13px}
