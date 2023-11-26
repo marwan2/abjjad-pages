@@ -125,11 +125,11 @@ form label{font-weight:400!important}
 #gtco-offcanvas ul li.offcanvas-has-dropdown > a{display:block;position:relative}
 #gtco-offcanvas ul li.offcanvas-has-dropdown > a:after{position:absolute;right:0;font-family:'icomoon';speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:"\e921";font-size:20px;color:rgba(255,255,255,0.2);-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
 #gtco-offcanvas ul li.offcanvas-has-dropdown.active a:after{-webkit-transform:rotate(-180deg);-moz-transform:rotate(-180deg);-ms-transform:rotate(-180deg);-o-transform:rotate(-180deg);transform:rotate(-180deg)}
-.gototop{position:fixed;bottom:20px;left:20px;z-index:999;opacity:0;visibility:hidden;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
+.gototop{position:fixed;bottom:15px;left:15px;z-index:999;opacity:0;visibility:hidden;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}
 .gototop.active{opacity:1;visibility:visible}
-.gototop a{width:50px;height:50px;display:table;background:rgba(0,0,0,0.5);color:#fff;text-align:center;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;border-radius:4px}
-.gototop a i{height:50px;display:table-cell;vertical-align:middle}
-.gototop a:hover,.gototop a:active,.gototop a:focus{text-decoration:none;outline:none}
+.gototop a{width:45px;height:45px;display:table;background:rgba(0,0,0,0.5);color:#fff;text-align:center;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;border-radius:4px}
+.gototop a i{height:45px;display:table-cell;vertical-align:middle}
+.gototop a:hover,.gototop a:active,.gototop a:focus{text-decoration:none;outline:none;background: #454545;}
 .gtco-nav-toggle{width:25px;height:25px;cursor:pointer;text-decoration:none}
 .gtco-nav-toggle.active i::before,.gtco-nav-toggle.active i::after{background:#444}
 .gtco-nav-toggle:hover,.gtco-nav-toggle:focus,.gtco-nav-toggle:active{outline:none;border-bottom:none!important}
@@ -213,8 +213,8 @@ footer, footer h3, .download_app .bhead { font-family: 'HelveticaNeueLTW20-Bold'
   .gtco-heading h2{font-size:16px}
   .macbook-wrap img{max-width:100%}
   .btn { padding:5px 17px;padding: 6px 15px;font-size: 13px;}
-  .gateway_vendors img { height: 34px; border-radius: 4px;}
-  .gtco-nav .mob_nav li a { padding-right:8px;padding-left: 6px; letter-spacing: -1px;}
+  .gateway_vendors img { height: 33px; border-radius: 4px;}
+  .gtco-nav .mob_nav li a { font-size: 13px;padding-right:8px;padding-left: 6px; letter-spacing: -1px;}
   .logo_wrapper { padding-left: 1px;}
   .card-body { padding: 1.0rem;}
   .gtco-section.main_section { padding-bottom: 1.8rem;}
@@ -242,9 +242,10 @@ footer, footer h3, .download_app .bhead { font-family: 'HelveticaNeueLTW20-Bold'
   .mob_img { display: flex; }
   .web_img { display: none; }
   .gtco-nav ul li a { padding:9px 14px}
-  .gtco-nav-toggle { height:46px;}
+  .gtco-nav-toggle { height:48px;}
   .gtco-nav{padding:6px 0}
-  .gtco-logo img { height: 28px;}
+  #gtco-logo img { height: 30px;}
+  .method-card .text-gray { font-size: 12px;}
 }
 @media screen and (max-width: 370px) {
   .mob_nav { padding-left: 5px; padding-right: 5px;}
